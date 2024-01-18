@@ -1,0 +1,19 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.4.0/schema.json",
+  "formatter": {
+    "indentWidth": 2,
+    "indentStyle": "space"
+  },
+  "linter": {
+    "rules": {
+      "recommended": true,
+      "style": {
+        "noNonNullAssertion": "off",
+        "useSelfClosingElements": "warn"
+      }
+    }
+  },
+  "files": {
+    "ignore": ["android/**/*", "ios/**/*"]
+  }
+}

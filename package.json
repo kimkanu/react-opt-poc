@@ -1,0 +1,28 @@
+{
+  "name": "react-opt-poc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Proof of concept of `react-opt`, a library for optimistic UI updates in React",
+  "scripts": {
+    "postinstall": "cd server && bun install",
+    "dev": "vite & bun run server",
+    "server": "cd server && bun run dev"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.17.12",
+    "object-hash": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "valtio": "^1.13.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.1",
+    "@types/object-hash": "^3.0.6",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
